@@ -1,0 +1,68 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%; 
+    overflow: hidden;
+    background-color: #FFF8E8;
+}
+
+h1 {
+    font-family: Halyard Display Regular, Helvetica, sans-serif ;
+    margin: 0;
+}
+
+h2 {
+    font-family: Halyard Display Light, Helvetica, sans-serif ;
+    margin: 0;
+    text-align: center;
+}
+
+
+h5 {
+    font-family: Halyard Display Light, Helvetica, sans-serif ;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.container-text {
+    height: 30px;
+    width: auto;
+    display: flex;
+    text-align: center;
+    /* padding: 30px; */
+    /* position: fixed; */
+
+}
+
+.dirm {
+    width: 120px;
+    position: fixed;
+}
+
+.luawo {
+    width: 130px;
+    position: fixed;
+    right:10%;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 85%;
+  }
+  
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.column-one {
+float: left;
+width: 100%;
+height: 15%;
+position: relative;
+}
