@@ -1,35 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin-left: 10%;
     margin-right: 10%;
-    height: 100%; 
+    /* height: 100vh;  */
     overflow: hidden;
     background-color: #FFF8E8;
 }
 
 h1 {
-    font-family: Halyard Display Regular, Helvetica, sans-serif ;
+    /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
+    font-family: "Helvetica Neue", sans-serif ;
+    font-style: normal;
+    font-weight: 400;
     margin: 0;
+    letter-spacing: -0.1px;
 }
 
 h2 {
-    font-family: Halyard Display Light, Helvetica, sans-serif ;
+    /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
+    font-family: "Helvetica Neue", sans-serif ;
+    font-style: normal;
+    font-weight: 400;
     margin: 0;
+    letter-spacing: -0.1px;
     text-align: center;
+    padding: 5px;
 }
 
 
 h5 {
-    font-family: Halyard Display Light, Helvetica, sans-serif ;
+    /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
+    font-family: "Helvetica Neue", sans-serif ;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.1px;    
     margin: 10px;
     text-align: center;
 }
 
+section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.container {
+    height: 90%;
+}
 
 .container-text {
     height: 30px;
     width: auto;
     display: flex;
-    text-align: center;
+    justify-content: space-between;
     /* padding: 30px; */
     /* position: fixed; */
 
@@ -37,20 +73,25 @@ h5 {
 
 .dirm {
     width: 120px;
-    position: fixed;
+    /* position: fixed; */
+    left: 0%;
+    text-align: left;
 }
 
 .luawo {
     width: 130px;
-    position: fixed;
-    right:10%;
+    /* position: fixed; */
+    right: 0%;
+    text-align: right;
 }
 
 
 .column {
     float: left;
     width: 33.33%;
-    height: 85%;
+    height: 83%;
+    position: relative;
+    overflow: hidden;
   }
   
 /* Clear floats after the columns */
@@ -58,11 +99,16 @@ h5 {
 content: "";
 display: table;
 clear: both;
+bottom: 0;
+position: relative;
 }
 
 .column-one {
 float: left;
 width: 100%;
-height: 15%;
-position: relative;
+height: 17%;
 }
+
+/* .contain-fix{ 
+    display: flex;
+} */
