@@ -121,6 +121,13 @@ p {
     text-align: right;
 }
 
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+
 
 .column {
     float: left;
@@ -591,3 +598,4 @@ height: 5%;
   --animate-duration: 9a;
   /* --animate-delay: 0.9s; */
 }
+
