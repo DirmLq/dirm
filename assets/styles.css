@@ -7,7 +7,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     /* height: 100vh;  */
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #FFF8E8;
 }
 
@@ -31,6 +31,11 @@ h2 {
     padding: 5px;
 }
 
+
+h2.row {
+    color: white;
+    text-align: left;
+}
 
 h5 {
     /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
@@ -89,7 +94,7 @@ a:hover {
 .column {
     float: left;
     width: 33.33%;
-    height: 83%;
+    height: 50%;
     position: relative;
     overflow: hidden;
   }
@@ -106,7 +111,7 @@ position: relative;
 .column-one {
 float: left;
 width: 100%;
-height: 17%;
+height: 5%;
 }
 
 /* .contain-fix{ 

@@ -1,0 +1,549 @@
+*{
+    font: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+.📖-control {
+    color: white;
+}
+
+body {
+margin: 0;
+--bindery-ui-bg: black;
+
+}
+
+
+
+#content {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+  }
+
+h1, h2, h4 {
+    font-family: "Halyard Display Light", sans-serif;
+    font-size: 18pt;
+}
+
+h3 {
+    font-family: "Halyard Display Book", sans-serif;
+    font-size: 60pt;
+    line-height: 52pt;
+}
+
+p, ul, li {
+    font-family: "SuisseIntl-Regular", sans-serif;
+    font-size: 20pt;
+    line-height: 22pt;                                                         
+}
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+
+figure img {
+    width: 100%;
+    height: 100%;
+}
+
+span img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.spread {
+    /* margin-top: 0px; */
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.drop {
+    margin-top: 76px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.add {
+    width: 99%;
+    height: 99%;
+}
+
+.addw {
+    width: 98%;
+}
+
+
+  
+.text-add{
+    margin-left: 48px;
+}
+
+
+figcaption {
+    font-family: "Halyard Display Light", sans-serif;
+    font-size: 11pt;
+    line-height: 15pt;
+    /* margin-left: .5in;
+    margin-right: .5in;
+    margin-top: .2in; */
+    color: red;
+    text-align: center;
+    position: absolute;
+}
+
+.smallest-container {
+    width: 4.93in;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.small-container {
+    width: 5.43in;
+    align-self: center;
+    margin-left: .125in;
+    /* margin-right: auto; */
+}
+
+.container-new { 
+    width: 5.68in;
+    /* align-self: center; */
+}
+
+.container-new { 
+    width: 50%;
+    /* align-self: center; */
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-new:hover .image {
+    opacity: 0.5 ease;
+}
+
+.container-new:hover .middle {
+    opacity: 1;
+}
+
+
+.dropdown {
+    position: relative;
+    display: flex;
+}
+  
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #fff;
+min-width: 160px;
+max-width: 6.43in;
+/* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+padding: 14px;
+z-index: 1;
+opacity: 0.75;
+transition: .5s ease;
+bottom:0;
+
+}
+/* 
+.dropdown>details {
+    left: 0;
+} */
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+.spread>.dropdown-content{
+    margin-left: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+
+}
+
+/* .spread>.dropdown:hover {
+    display: block;
+} */
+
+.dropdown-content>p{
+    font-family: "SuisseIntl-Regular", sans-serif;
+    background-color:#fff;
+    color: black;
+    font-size: 20pt;
+    /* padding: 14px; */
+}
+
+details{
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container-over {
+  position: relative;
+  width: 100%;
+  max-width: 515px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.container-spread {
+    position: relative;
+    width: 100%;
+    width: 12in;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 14pt;
+  padding: 14px;
+  text-align: left;
+}
+
+sup{
+    font-size: 9pt;
+    font-weight: bolder;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container-over:hover .overlay {
+  opacity: 1;
+}
+
+
+.container-spread:hover .overlay {
+    opacity: 1;
+  }
+  
+
+
+
+.fullwidth-container{
+    width: 110%;
+    align-self: center;
+    margin-left: -.29in;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+.📖-right .📖-running-header {
+    right: var(--bindery-margin-outer);
+    text-align: right;
+    font-family: "Halyard Display Light", sans-serif;
+}
+
+/* .📖-right {
+    background: rgb(140,81,17);
+    background: linear-gradient(180deg, rgba(140,81,17,1) 0%, rgba(233,169,5,1) 48%, rgba(214,85,20,1) 100%);
+} */
+
+.📖-left .📖-running-header {
+    right: var(--bindery-margin-outer);
+    text-align: left;
+    font-family: "Halyard Display Light", sans-serif;
+}
+
+/* .📖-left {
+    background: rgb(140,81,17);
+    background: linear-gradient(180deg, rgba(140,81,17,1) 0%, rgba(233,169,5,1) 48%, rgba(214,85,20,1) 100%);
+}
+
+.📖-page {
+    background: rgb(140,81,17);
+    background: linear-gradient(180deg, rgba(140,81,17,1) 0%, rgba(233,169,5,1) 48%, rgba(214,85,20,1) 100%);
+} */
+
+.white {
+    color: white;
+}
+
+.column-container {
+    display: grid;
+    width: 5.7in;
+    height: 8in;
+    margin-top: 80px;
+    margin-left:.5in;
+    grid-column-gap: 10px;
+    grid-template-columns: 48% 48%;
+    /* padding: 10px; */
+    grid-column-gap: 4%;
+    color: white;
+    /* border: 3px solid #73AD21; */
+  }
+
+.column-item {
+    /* padding: 20px; */
+    margin-top: 15px; 
+    text-align: left;
+    /* border: 3px solid #73AD21; */
+  }
+
+  .column-item>p {
+    font-size: 16pt;
+    line-height: 17.75pt;
+    font-family: "SuisseIntl-Book", sans-serif;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.gray>p {
+    color: rgb(255, 214, 214);
+}
+strong {
+    font-weight: bold;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 0;
+    padding: 0;
+}
+
+
+.reference-container {
+    /* margin-top: 70px; */
+    width: 110%;
+    /* height: 100%; */
+    margin-left: -.28in;
+    height: 100%;
+    /* align-self: center; */
+    /* margin-left: -.375in; */
+    /* margin-right: 0; */
+    /* overflow: hidden; */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+tbody {
+    width: 100%;
+    height: 100%;
+}
+
+th, td {
+padding: 3.5px;
+text-align: left;
+border-bottom: 1px solid #000;
+font-size: 8pt;
+line-height: 12pt;
+}
+
+th {
+    font-family: "Halyard Display Regular", sans-serif;
+}
+
+td {
+    font-family: "Halyard Display Light", sans-serif;
+}
+
+
+
+
+.rotate {
+
+    -webkit-transform: rotate(270deg);
+    -webkit-transform-origin: right top;
+    -moz-transform: rotate(270deg);
+    -moz-transform-origin: right top;
+    -ms-transform: rotate(270deg);
+    -ms-transform-origin: right top;
+    -o-transform: rotate(270deg);
+    -o-transform-origin: right top;
+    transform: rotate(270deg);
+    transform-origin: right top;
+
+    position: absolute;
+    top: 0;
+    right: 100%;
+    
+    /* white-space: nowrap;     */
+}
+
+/* span {
+    height: 100%;
+}  */
+
+
+.outer {
+    width: 5.5in;
+    height: 7.5in;
+    margin: 0 auto;
+  }
+  
+  .wrapper {
+    /* border: 2px solid #f76707; */
+    border-radius: 5px;
+    /* background-color: #fff4e6; */
+    display: grid;
+    width: 8in;
+    /* grid-template-columns: 1fr repeat(6, auto) 1fr; */
+    grid-template-columns: 6% 36% 19% 8% 18% 14%;
+    column-gap: 0;
+    justify-content: center;
+  }
+  
+  .wrapper>p {
+    /* border: 2px solid #ffa94d; */
+    border-radius: 3px;
+    /* background-color: #ffd8a8; */
+    padding: 3px;
+    /* color: #d9480f; */
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 10pt;
+    line-height: 12pt;
+  }
+  
+  /* .wrapper>div:nth-of-type(n+1) {
+    grid-column: 6;
+  } */
+  
+  .line {
+    grid-column: 1/7;
+    height: 2px;
+    border-bottom: 1px solid black;
+  }
+
+  i {
+    font-style: italic;
+  }
+
+.black {
+    background-color: black;
+}
+
+span {
+    width: 100%;
+    height: 100%; 
+}
+/* .black>p {
+    color: #fff;
+} */
+
+.fit {
+    width: 12in;
+    height: 7in;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.top-half {
+    height: 50%;
+}
+
+
+
+figure {
+    width: 100%;
+    height: 100%;
+}
+
+.relative{
+position: relative;
+width: 100%;
+height: 100%;
+background-color: black;
+}
+
+.absolute {
+    position: absolute;
+    top: 80px;
+    right: 36px;
+    width: 5.73in;
+    height: 8in;
+    /* border: 3px solid #73AD21; */
+  }
+
+  .absolute>p{
+      color:red;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+figure.relative {
+    background-image: url("image/black-01.png");
+}
+
+

@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #000;
+    /* background-color: #000; */
+}
+
+.container img {
+    height: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+h1 {
+    /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
+    font-family: "Helvetica Neue", sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: -0.1px;
+}
+
+h2 {
+    /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
+    font-family: "Helvetica Neue", sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: -0.1px;
+    text-align: center;
+    padding: 5px;
+}
+
+h5 {
+    /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
+    font-family: "Helvetica Neue", sans-serif ;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.1px;    
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+.container-text {
+    height: 30px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px; */
+    /* position: fixed; */
+
+}
+
+.dirm {
+    width: 120px;
+    /* position: fixed; */
+    left: 0%;
+    text-align: left;
+}
+
+.luawo {
+    width: 130px;
+    /* position: fixed; */
+    right: 0%;
+    text-align: right;
+}
+
+.container-text {
+    height: 30px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px; */
+    /* position: fixed; */
+}
+
+.dirm {
+    width: 120px;
+    /* position: fixed; */
+    left: 0%;
+    text-align: left;
+}
+
+.luawo {
+    width: 130px;
+    /* position: fixed; */
+    right: 0%;
+    text-align: right;
+}
+  
+td:nth-child(1) {
+    width: 46.4%;
+    }
+  
+  /* the second */
+td:nth-child(2) {
+    width: 53.6%;
+  }
+
+td img {
+    width: 100%;
+}
+
+td {
+    font-family: "Helvetica Neue", sans-serif ;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+}
