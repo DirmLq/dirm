@@ -1,0 +1,260 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    /* height: 100vh;  */
+    /* overflow: hidden; */
+    background-color: #000;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+h1 {
+    /* font-family: Halyard Display Regular, Helvetica, sans-serif ; */
+    font-family: "Helvetica Neue", sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: -0.1px;
+}
+
+h2 {
+    /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
+    font-family: "Helvetica Neue", sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: -0.1px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+
+h2.row {
+    color: white;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+h5 {
+    /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.1px;    
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: -0.1px;
+    color: white;
+    font-size: 18px;
+}
+
+.container {
+    height: 90%;
+}
+
+.container-text {
+    height: 30px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 30px; */
+    /* position: fixed; */
+}
+
+.dirm {
+    width: 120px;
+    /* position: fixed; */
+    left: 0%;
+    text-align: left;
+}
+
+.luawo {
+    width: 130px;
+    /* position: fixed; */
+    right: 0%;
+    text-align: right;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    height: 50%;
+    position: relative;
+    /* overflow: hidden; */
+    overflow: 
+  }
+  
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+bottom: 0;
+position: relative;
+}
+
+.column-one {
+float: left;
+width: 100%;
+height: 5%;
+}
+
+/* .contain-fix{ 
+    display: flex;
+} */
+
+img.column {
+    width: 33.33%;
+}
+
+.grid_container {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows: repeat(1, 5vw); */
+    grid-gap: 10px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 2;  */
+    /* grid-row: 1 / span 2; */
+  }
+  
+  .gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 3 / span 2;  */
+    /* grid-row: 1 / span 2; */
+  }
+  
+  .gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .gallery__item--5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+.column-three {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column-two {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    overflow: visible;
+}
+
+.img-grow > a img:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+    overflow: visible;
+
+}
+
+.img-grow > img:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+    overflow: visible;
+}
