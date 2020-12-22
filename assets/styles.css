@@ -18,6 +18,7 @@ h1 {
     font-weight: 400;
     margin: 0;
     letter-spacing: -0.1px;
+    font-size: 2em;
 }
 
 h2 {
@@ -117,3 +118,124 @@ height: 5%;
 /* .contain-fix{ 
     display: flex;
 } */
+
+@media only screen and (min-width: 300px) and (max-width: 828px){
+   
+    body {
+        /* background-color: #7fcceb; */
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    
+    h2 {
+        /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
+        margin: 0;
+        letter-spacing: -0.1px;
+        text-align: center;
+        padding: 5px;
+        font-size: 3em;
+    }
+    
+    
+    h2.row {
+        color: white;
+        text-align: left;
+        font-size: 3em;
+    }
+    
+    h5 {
+        /* font-family: Halyard Display Light, Helvetica, sans-serif ; */
+        font-family: "Helvetica Neue", sans-serif ;
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: -0.1px;    
+        margin: 10px;
+        text-align: center;
+        font-size: 1em;
+
+    }
+    
+    section {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    .container {
+        height: 90%;
+    }
+    
+    .container-text {
+        height: 30px;
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        /* padding: 30px; */
+        /* position: fixed; */
+    
+    }
+    
+    .dirm {
+        width: 20em;
+        /* position: fixed; */
+        left: 0%;
+        text-align: left;
+    }
+    
+    .luawo {
+        width: 20em;
+        /* position: fixed; */
+        right: 0%;
+        text-align: right;
+    }
+    
+    
+    .column {
+        float: left;
+        width: 100%;
+        height: 50%;
+        position: relative;
+        overflow: hidden;
+      }
+      
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    bottom: 0;
+    position: relative;
+    }
+    
+    .column-one {
+    float: left;
+    width: 100%;
+    height: 5%;
+    }
+
+    /* h1 {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 5px;
+    }
+
+    p {
+        font-size: 7em;
+    } */
+
+}
+
+/* @media only screen and (min-width: 769px) and (max-width: 992px){ */
