@@ -136,6 +136,132 @@ height: 5%;
     display: flex;
 } */
 
+
+
+
+
+/*iphone styles here*/
+
+html {
+    max-width: 100%;
+    overflow: hidden;
+    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    /* background-color: black; */
+    max-width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.wrapper {
+    display: inline-block;
+    /* max-width: 1400px; */
+    width: 80%;
+    text-align: left;
+}
+
+.first-name {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+
+.last-name {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+.semester {
+    width: 100%;
+    color: white;
+    text-align: end;
+    padding: 0;
+}
+
+h2.semester {
+    text-align: left;
+    padding-left: 20px;
+    color: white;
+}
+
+
+.project {
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+    overflow: hidden;
+    height: 40%;
+    padding: 0;
+}
+
+
+
+.center-fit {
+    max-width: 95%;
+    max-height: 95vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.left {
+    display: inline-block;
+    width: 49%;
+    height: 100px;
+}
+
+.right {
+    display: inline-block;
+    width: 49%;
+    height: 100px;
+}
+
+.default-font {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.25em;
+    letter-spacing: 0.25px;
+    letter-spacing: normal;
+}
+
+.rectangle {
+    width: 95%;
+    height: 10px;
+    margin-top: 110px;
+    background-color: white;
+}
+
+/* h1, h2, p {
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    line-height: 0.3em;
+    font-weight: bold;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 375px) and (max-width: 900px){
    
     body {
