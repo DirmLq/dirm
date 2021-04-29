@@ -426,7 +426,7 @@ img {
     display: flex;
 } */
 
-@media only screen and (min-width: 375px) and (max-width: 1080px){
+@media only screen and (min-width: 375px) and (max-width: 1081px){
    
     body {
         background-color: rgb(112, 13, 91);
