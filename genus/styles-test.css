@@ -429,17 +429,17 @@ img {
 @media only screen and (min-width: 375px) and (max-width: 1081px){
    
     body {
-        background-color: black;
+        background-color: red;
 
-          margin-left: 5%;
-          margin-right: 5%;
+          margin-left: 3%;
+          margin-right: 3%;
           /* height: 100vh;  */
           /* overflow: hidden; */
           max-width: 100%;
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
     
     h2 {
@@ -451,10 +451,27 @@ img {
         font-size: 3em;
     }
     
+    h4 {
+        font-size: 1.8em;
+    }
+
     h5 {
         font-size: 1em;
     }
 
+
+    i {
+      letter-spacing: -0.1px;
+      padding: 2px;
+      line-height: 1.6em;
+      font-size: 1.5em;
+    }
+    
+    p {
+      letter-spacing: -0.1px;
+      line-height: 1.6em;
+      font-size: 1.5em;
+    }
 
     .sticky {
       position: none; /* Safari */
@@ -661,7 +678,7 @@ img {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 12;
-        grid-row-end: 12;
+        grid-row-end: 13;
       }
 }
 
