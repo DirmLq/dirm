@@ -466,15 +466,14 @@ img {
 
     i {
       letter-spacing: -0.1px;
-      padding: 2px;
       line-height: 2em;
-      font-size: 2.5em;
+      font-size: 3em;
     }
     
     p {
       letter-spacing: -0.1px;
       line-height: 2em;
-      font-size: 2.5em;
+      font-size: 3em;
     }
 
     .sticky {
