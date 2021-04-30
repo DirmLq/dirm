@@ -69,7 +69,7 @@ h3 {
     letter-spacing: -0.1px;
     text-align: left;
     /* padding: 2px; */
-    font-size: 2em;
+    font-size: 2.5em;
     color: white;
 }
 
@@ -552,11 +552,20 @@ img {
         /* background-color: rgba(255, 255, 255, 0.8); */
         text-align: left;
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 1;
       }
     
+      .grid-item-16 {
+        /* background-color: rgba(255, 255, 255, 0.8); */
+        text-align: left;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 5;
+      }
+
       .grid-item-2 {
         /* background-color: rgba(255, 255, 255, 0.8); */
         text-align: left;
