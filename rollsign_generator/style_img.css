@@ -44,3 +44,19 @@ button {
   object-fit: cover;
   background-image: cover;
 }
+
+
+@media only screen and (min-width: 375px) and (max-width: 900px){
+  section {
+    height: 5vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    border: 2px white solid;
+  }
+  
+}
+
+/* @media only screen and (min-width: 769px) and (max-width: 992px){ */
+
