@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 27vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  border: 2px white solid;
+}
+
+
+@font-face{
+  font-family: "StandardMedium";
+  src: url("StandardCT-Regular2.otf");
+}
+
+h1 {
+font-family: StandardMedium;
+padding-top: 1%;
+text-align: center;
+}
+
+button {
+  height:40px;
+  width: 180px;
+  background-color:aqua;
+  color: black;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+}
+
+.btn.img{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  object-fit: cover;
+  background-image: cover;
+}
