@@ -169,14 +169,15 @@ section {
 button {
   height:100px;
   width: 300px;
-  background-color:aqua;
-  color: black;
-  border: 2px solid;
+  background-color:black;
+  color: white;
+  border-top: 10px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
   margin:auto;
-  font-size: 2em;
+  font-size: 3em;
+  font-family: "Standard-Medium";
 }
 
 .btn.img{
