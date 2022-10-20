@@ -1,27 +1,27 @@
 let pics3 = [
-    'url("./assets/nterm1.png")',
-    'url("./assets/nterm2.png")',
-    'url("./assets/nterm3.png")',
-    'url("./assets/nterm4.png")',
-    'url("./assets/nterm5.png")',
-    'url("./assets/nterm6.png")',
-    'url("./assets/nterm7.png")',
-    'url("./assets/nterm8.png")',
-    'url("./assets/nterm9.png")',
-    'url("./assets/nterm10.png")',
-    'url("./assets/nterm11.png")',
-    'url("./assets/nterm12.png")',
-    'url("./assets/nterm13.png")',
-    'url("./assets/nterm14.png")',
-    'url("./assets/nterm15.png")',
-    'url("./assets/nterm16.png")',
-    'url("./assets/nterm17.png")',
-    'url("./assets/nterm18.png")',
-    'url("./assets/nterm19.png")',
-    'url("./assets/nterm20.png")',
-    'url("./assets/nterm21.png")',
-    'url("./assets/nterm22.png")',
-    'url("./assets/nterm23.png")',
+    'url("assets/nterm1.png")',
+    'url("assets/nterm2.png")',
+    'url("assets/nterm3.png")',
+    'url("assets/nterm4.png")',
+    'url("assets/nterm5.png")',
+    'url("assets/nterm6.png")',
+    'url("assets/nterm7.png")',
+    'url("assets/nterm8.png")',
+    'url("assets/nterm9.png")',
+    'url("assets/nterm10.png")',
+    'url("assets/nterm11.png")',
+    'url("assets/nterm12.png")',
+    'url("assets/nterm13.png")',
+    'url("assets/nterm14.png")',
+    'url("assets/nterm15.png")',
+    'url("assets/nterm16.png")',
+    'url("assets/nterm17.png")',
+    'url("assets/nterm18.png")',
+    'url("assets/nterm19.png")',
+    'url("assets/nterm20.png")',
+    'url("assets/nterm21.png")',
+    'url("assets/nterm22.png")',
+    'url("assets/nterm23.png")',
   
   ];
   
@@ -56,7 +56,7 @@ let pics3 = [
     'url("assets/sterm17.png")',
   ];
   
-  let pic2 = document.getElementById('section2');
+  let pic2 = document.getElementById('grid-item-3');
   
   
   function showImage2(){
@@ -90,7 +90,7 @@ let pics3 = [
   
   ];
   
-  let pic = document.getElementById('section3');
+  let pic = document.getElementById('grid-item-4');
   
   
   function showImage3(){
